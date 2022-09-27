@@ -1,0 +1,310 @@
+.mainimg{
+     
+    position: fixed;
+     z-index: -1;
+    font-family: 'Amatic SC', cursive;
+    font-size: 130px;
+   color: white;
+    left: 20%;
+    top: 25%;
+}
+.nav
+{
+    z-index: 1;
+    position: fixed;
+   color: white;
+    width: 90%;
+    height: 12%;
+    left: 30px;
+    display: inline-block;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+}
+.nav span{
+    display: inline-block;
+    font-size: 30px;
+    padding: 12px;
+    
+}
+.span1{
+    margin-left: 60%;
+}
+.nomargin{
+    margin: 0;
+}
+.length{
+    height: 1000000px;
+}
+.image
+{
+    z-index: -2;
+   opacity: .98;
+    position: absolute;
+    height: 80%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-repeat: no-repeat;
+   background-image: url('mainimg.jpg');
+   background-size:cover  ;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav span:hover{
+    background-color: black;
+    transition: 1.2s;
+    transform: scale(1.2);
+}
+.content{
+    background-image: url('contentbg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Patrick Hand', cursive;
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    height: 310%;
+   
+    
+    flex-direction: row;
+}
+.right,.left{
+   
+    width: 50%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+
+}
+.left div
+{
+    height: 30%;
+    width: 100%;
+ 
+}
+
+.col1 img{
+    position: relative;
+    top: 26%;
+    left: 5%;
+    height: 70%;
+    width: 70%;
+    border-radius:5% ;
+    
+}
+.col1 p{
+    position: absolute;
+    left: 10%;
+    top:-2%;
+    font-weight: 400;
+    font-size: 50px ;
+    color: rgb(255, 255, 255);
+}
+.colr1 p{
+      font-size: 22px;
+    color: rgb(217, 217, 217);
+}
+.colr1{
+    padding-top: 12%;
+}
+.colr1 button{
+    border: none;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    font-size: 22px;
+    font-family: 'Patrick Hand', cursive;
+}
+.colr1 button:hover{
+   transition: 0.6s;
+    background-color: green;
+    column-rule: white;
+}
+.colr2 img{
+    position: relative;
+    top: 26%;
+    left: 5%;
+    height: 70%;
+    width: 70%;
+    border-radius:5% ;
+    
+}
+.col2 p{
+    margin-top:400px ;
+    font-size: 22px;
+    color: rgb(217, 217, 217);
+}
+
+ .col2 button{
+    border: none;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    font-size: 22px;
+    font-family: 'Patrick Hand', cursive;
+}
+.col2 button:hover{
+    transition: 0.6s;
+    background-color: green;
+    color: white;
+}
+.colr1 a{
+    text-decoration: none;
+}
+.colr2 p{
+    position: relative;
+    left: 10%;
+    top:-2%;
+    font-weight: 400;
+    font-size: 50px ;
+    color: rgb(255, 255, 255);
+}
+.colr3 p{
+    
+        font-size: 22px;
+      color: rgb(217, 217, 217);
+  
+
+}
+.colr3{
+    margin-top: 200px;
+}
+.col3 img{
+    position: relative;
+    
+    left: 5%;
+    height: 70%;
+    width: 70%;
+    border-radius:5% ;
+}
+.col3{
+    position: relative;
+    margin-top: 30%;
+}
+.col3 p{
+    position: relative;
+    left: 10%;
+    top: -2%;
+    font-weight: 400;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.colr4 img{
+    position: relative;
+    top: 26%;
+    left: 5%;
+    height: 70%;
+    width: 70%;
+    border-radius:5% ;
+    
+}
+.col4 p{
+    margin-top:400px ;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+.colr4 p{
+    position: relative;
+    left: 10%;
+    top: -2%;
+    font-weight: 400;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.review{
+    position: absolute;
+    top:430%;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 90%;
+    background-color: rgb(255, 246, 246);
+ 
+}
+.review form{
+    
+    display: flex;
+    position: relative;
+    height: 80%;
+    width: 50%;
+    left: 20%;
+    top: 10%;
+     background-color: #15172b;
+    flex-direction: column;
+    
+    
+
+}
+.review form input
+{
+    border: transparent;
+    outline: none;
+    position: relative;
+    width: 40%;
+    border: none;
+    background-color: rgb(72, 72, 72);
+        color: white;
+        font-size: 12px;
+        margin-top:5%;
+        height: 40px;
+        font-size: 20px;
+        margin-left: 30%;
+        border-radius: 5%;
+        
+        
+        
+}
+#review{
+    resize: none;
+    outline: none;
+    border-radius: 5%;
+    border: none;
+    top: 5%;
+    left: 30%;
+    position: relative;
+    width: 40%;
+    height:40%;
+    background-color: rgb(72, 72, 72) ;
+      color: white;
+    font-size: 24px;
+}
+.submit a{
+    text-decoration: none;
+      color: white;
+      
+}
+.submit{
+    position: absolute;
+    display: inline-block;
+    height: 8%;
+    width: 12%;
+    font-size:22px ;
+    text-align: center;
+    background-color: red;
+    top: 510%;
+    left: 40%;
+    border-radius:10% ;
+}
+.submit a{
+    position: relative;
+    top: 20%;
+}
+.submit:hover{
+    transform: scale(1.2);
+
+}
+h3{
+    position: absolute;
+    color: white;
+    font-family: "Jost", sans-serif;
+   margin-left: 40%;
+   top: 1%;
+   font-size: 30px;
+}
